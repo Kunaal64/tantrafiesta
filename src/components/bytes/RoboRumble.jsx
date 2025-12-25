@@ -5,6 +5,16 @@ import OrganiserBadge from "./OrganiserBadge";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
+/**
+ * RoboRumble Component
+ * 
+ * An event card for "RoboRumble".
+ * 
+ * Features:
+ * - 3D Tilt effect.
+ * - "IoTics" organizer badge.
+ * - Floating banner animation.
+ */
 const RoboRumble = ({ theme }) => {
   const [rotation, setRotation] = useState({ x: 0, y: 0 });
   const cardRef = useRef(null);

@@ -6,6 +6,11 @@ import { motion, useInView } from "framer-motion";
 
 import EventData from "@/components/eventBytes/EventData";
 import Contact from "@/components/Contact";
+/**
+ * Byte Craft Event Page
+ * 
+ * Displays details for the Byte Craft (IoT/AI) event.
+ */
 const page = () => {
   const title = "Byte Craft";
   const organizer = "IoTics";

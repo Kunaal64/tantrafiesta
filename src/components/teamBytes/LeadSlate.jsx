@@ -1,3 +1,9 @@
+/**
+ * LeadSlate Component
+ * 
+ * Displays contact information for a Team Lead.
+ * Occupies more space (col-span-2) than a plain member slate.
+ */
 const LeadSlate = ({ title, name, phone }) => {
   return (
     <div className=" h-24 xl:h-16 col-span-2  rounded-2xl px-2 text-white">

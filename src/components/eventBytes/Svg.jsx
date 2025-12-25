@@ -1,5 +1,11 @@
 "use client";
 import { motion } from "framer-motion";
+/**
+ * Svg Component
+ * 
+ * Renders a complex animated SVG background.
+ * Similar to `FindMore` background but used in other contexts (e.g., Event pages).
+ */
 const Svg = () => {
   return (
     <div className="absolute z-0 w-[100vw]  lg:w-[80vw]    flex justify-center items-center">

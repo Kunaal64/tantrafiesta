@@ -6,6 +6,11 @@ import { motion, useInView } from "framer-motion";
 
 import EventData from "@/components/eventBytes/EventData";
 import Contact from "@/components/Contact";
+/**
+ * GenAThon Event Page
+ * 
+ * Displays details for the GenAThon (Generative AI) event.
+ */
 const page = () => {
   const title = " Gen-A-Thon";
   const organizer = "Elevate";

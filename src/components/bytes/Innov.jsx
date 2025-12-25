@@ -6,6 +6,16 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import GPTGimmick from "../gimmicks/GPTGimmick";
 
+/**
+ * Innov Component
+ * 
+ * An event card for "Innovation Oasis".
+ * 
+ * Features:
+ * - 3D Tilt effect.
+ * - "UDYAM" organizer badge.
+ * - Floating banner animation.
+ */
 const Innov = ({ theme }) => {
   const [rotation, setRotation] = useState({ x: 0, y: 0 });
   const cardRef = useRef(null);

@@ -9,6 +9,16 @@ const chars = "0101";
 const randomChar = () => chars[Math.floor(Math.random() * (chars.length - 1))];
 const randomString = (length) => [...Array(length)].map(randomChar).join("");
 
+/**
+ * SpeakerCard Component
+ * 
+ * A card component for displaying speaker profiles.
+ * 
+ * Features:
+ * - "Matrix-like" background effect with falling random binary characters.
+ * - Hover effect that reveals/animates the background characters.
+ * - Displays image, name, and LinkedIn link.
+ */
 const SpeakerCard = ({ name, details, link, image }) => {
   const [letters, setLetters] = useState("");
   const [position, setPosition] = useState({ x: 0, y: 0 });

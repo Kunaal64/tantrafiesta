@@ -6,6 +6,11 @@ import { motion, useInView } from "framer-motion";
 
 import EventData from "@/components/eventBytes/EventData";
 import Contact from "@/components/Contact";
+/**
+ * Overdrive Event Page
+ * 
+ * Displays details for the Overdrive (Valorant) event.
+ */
 const page = () => {
   const title = "Overdrive-Valorant Showdown";
   const organizer = "TF Managment";

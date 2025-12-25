@@ -6,6 +6,17 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Gimmick from "../gimmicks/Gimmick";
 
+/**
+ * EventCardLong Component
+ * 
+ * A wide-layout event card component.
+ * 
+ * Features:
+ * - Horizontal layout suitable for wider screens.
+ * - 3D Tilt effect.
+ * - Placeholder for `Gimmick` component (which is likely empty or a specific 3D model).
+ * - "Register Now" button.
+ */
 const EventCardLong = ({ organizer, title, details, theme }) => {
   const [rotation, setRotation] = useState({ x: 0, y: 0 });
   const cardRef = useRef(null);

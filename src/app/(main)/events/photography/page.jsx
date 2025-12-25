@@ -6,6 +6,11 @@ import { motion, useInView } from "framer-motion";
 
 import EventData from "@/components/eventBytes/EventData";
 import Contact from "@/components/Contact";
+/**
+ * Photography Event Page
+ * 
+ * Displays details for the Photography event.
+ */
 const page = () => {
   const title = "Photography";
   const organizer = "Probe";

@@ -6,6 +6,11 @@ import { motion, useInView } from "framer-motion";
 
 import EventData from "@/components/eventBytes/EventData";
 import Contact from "@/components/Contact";
+/**
+ * BattleFrenzy Event Page
+ * 
+ * Displays details for the BattleFrenzy (BGMI) event.
+ */
 const page = () => {
   const title = "BattleFrenzy ";
   const organizer = "TF Management";

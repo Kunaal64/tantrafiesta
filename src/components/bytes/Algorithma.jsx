@@ -7,6 +7,17 @@ import Typewriter from "typewriter-effect";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
+/**
+ * Algorithmia Component
+ * 
+ * An interactive event card for the "Algorithmia" competitive programming contest.
+ * 
+ * Features:
+ * - 3D Tilt effect on mouse move.
+ * - Interactive "IDE-like" code block with tabs (Problems, Terminal, Output).
+ * - Typewriter effect for displaying event details (Themes, Tracks, Schedule).
+ * - Links to registration and Coding Ninjas.
+ */
 const Algorithmia = ({ theme }) => {
   const [rotation, setRotation] = useState({ x: 0, y: 0 });
   const [min, setMin] = useState(false);

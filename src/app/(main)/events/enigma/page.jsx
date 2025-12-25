@@ -6,6 +6,11 @@ import { motion, useInView } from "framer-motion";
 
 import EventData from "@/components/eventBytes/EventData";
 import Contact from "@/components/Contact";
+/**
+ * Enigma Event Page
+ * 
+ * Displays details for the Enigma event.
+ */
 const page = () => {
   const title = "EnigmaXplore";
   const organizer = "CRISPR";

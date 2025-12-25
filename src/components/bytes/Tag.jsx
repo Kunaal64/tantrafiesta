@@ -2,6 +2,16 @@
 
 import { motion } from "framer-motion";
 
+/**
+ * Tag Component
+ * 
+ * A styled interactive tag/button component.
+ * 
+ * Features:
+ * - Framer motion hover and tap animations.
+ * - Arrow icon that moves on hover.
+ * - Used for categories or actions.
+ */
 const Tag = ({ text, icon }) => {
   const mainVaraints = {
     hover: {

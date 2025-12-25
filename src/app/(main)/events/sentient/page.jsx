@@ -6,6 +6,11 @@ import { motion, useInView } from "framer-motion";
 
 import EventData from "@/components/eventBytes/EventData";
 import Contact from "@/components/Contact";
+/**
+ * Sentient 2.0 Event Page
+ * 
+ * Displays details for the Sentient 2.0 (AI/ML) event.
+ */
 const page = () => {
   const title = "Sentiment Strife";
   const organizer = "Dimensions";

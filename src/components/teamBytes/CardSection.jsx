@@ -1,6 +1,15 @@
 "use client";
 import React, { useEffect, useRef } from "react";
 
+/**
+ * CardSection Component
+ * 
+ * A container for a section of cards in the Team page.
+ * 
+ * Features:
+ * - Implements auto-scrolling behavior on mount.
+ * - Adds interactive mouse-move effects to child cards (updating --x, --y CSS variables).
+ */
 const CardSection = ({ children, start, end }) => {
   const cardsRef = useRef(null);
   const scrollRef = useRef(null);

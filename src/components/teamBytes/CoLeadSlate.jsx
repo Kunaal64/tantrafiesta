@@ -1,3 +1,8 @@
+/**
+ * CoLeadSlate Component
+ * 
+ * Displays contact information for a Co-Lead team member.
+ */
 const CoLeadSlate = ({ title, name, phone }) => {
   return (
     <div className=" h-[104px]  row-span-2  rounded-2xl px-2 text-white">

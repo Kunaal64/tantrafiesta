@@ -6,6 +6,11 @@ import { motion, useInView } from "framer-motion";
 
 import EventData from "@/components/eventBytes/EventData";
 import Contact from "@/components/Contact";
+/**
+ * Design-A-Thon Event Page
+ * 
+ * Displays details for the Design-A-Thon event.
+ */
 const page = () => {
   const title = "Design-A-Thon";
   const organizer = "Strokes";

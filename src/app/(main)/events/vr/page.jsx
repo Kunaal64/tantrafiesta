@@ -6,6 +6,11 @@ import { motion, useInView } from "framer-motion";
 
 import EventData from "@/components/eventBytes/EventData";
 import Contact from "@/components/Contact";
+/**
+ * VR Gaming Event Page
+ * 
+ * Displays details for the VR Gaming event.
+ */
 const page = () => {
   const title = " VR Experience exhibition";
   const organizer = "Dimensions";

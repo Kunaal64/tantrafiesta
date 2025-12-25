@@ -3,6 +3,17 @@ import React, { useRef } from "react";
 import EventTimeline from "@/components/eventBytes/EventTimeline";
 import Typewriter from "typewriter-effect";
 import { motion, useInView } from "framer-motion";
+/**
+ * EventData Component
+ * 
+ * Displays detailed information about a specific event.
+ * 
+ * Features:
+ * - Paragraph description.
+ * - Timeline of sub-events using `EventTimeline`.
+ * - Typewriter effect for "Rewards" section.
+ * - Animated decorative vertical line.
+ */
 const EventData = ({ paragraph, data, theme, rewards }) => {
   const divRef = useRef(null);
   const isInView = useInView(divRef);

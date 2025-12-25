@@ -5,6 +5,17 @@ import OrganiserBadge from "./OrganiserBadge";
 
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+/**
+ * EventCardShort Component
+ * 
+ * A compact, box-layout event card component.
+ * 
+ * Features:
+ * - Vertical layout.
+ * - 3D Tilt effect.
+ * - Absolute positioned logo.
+ * - Overflow hidden with marquee effect for long titles (likely via CSS `transText` class).
+ */
 const EventCardShort = ({
   organizer,
   title,

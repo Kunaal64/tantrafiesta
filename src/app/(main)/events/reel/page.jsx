@@ -6,6 +6,11 @@ import { motion, useInView } from "framer-motion";
 
 import EventData from "@/components/eventBytes/EventData";
 import Contact from "@/components/Contact";
+/**
+ * Reel Event Page
+ * 
+ * Displays details for the Reel making event.
+ */
 const page = () => {
   const title = " Reel Making";
   const organizer = "Probe";

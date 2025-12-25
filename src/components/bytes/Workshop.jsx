@@ -5,6 +5,16 @@ import OrganiserBadge from "./OrganiserBadge";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
+/**
+ * Workshop Component
+ * 
+ * An event card for "Workshop".
+ * 
+ * Features:
+ * - 3D Tilt effect.
+ * - "DotSlash" organizer badge.
+ * - Geared towards educational workshops.
+ */
 const Workshop = ({ theme, details }) => {
   const [rotation, setRotation] = useState({ x: 0, y: 0 });
   const cardRef = useRef(null);

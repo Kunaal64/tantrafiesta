@@ -7,6 +7,16 @@ import Typewriter from "typewriter-effect";
 import { motion } from "framer-motion";
 
 import { Link } from "react-router-dom";
+/**
+ * GenAThon Component
+ * 
+ * An event card for "Gen-A-Thon".
+ * 
+ * Features:
+ * - 3D Tilt effect.
+ * - "Elevate" organizer badge.
+ * - Specific banner image.
+ */
 const GenAThon = () => {
   const [rotation, setRotation] = useState({ x: 0, y: 0 });
   const [min, setMin] = useState(false);

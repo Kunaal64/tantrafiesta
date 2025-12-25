@@ -6,6 +6,17 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Gimmick from "../gimmicks/Gimmick";
 
+/**
+ * EventCardTall Component
+ * 
+ * A tall, vertical event card component.
+ * 
+ * Features:
+ * - Vertical layout with image at bottom.
+ * - 3D Tilt effect.
+ * - "Register Now" button.
+ * - Often used for main events or featured cards.
+ */
 const EventCardTall = ({
   organizer,
   title,

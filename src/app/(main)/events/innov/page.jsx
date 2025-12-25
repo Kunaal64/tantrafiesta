@@ -6,6 +6,11 @@ import { motion, useInView } from "framer-motion";
 
 import EventData from "@/components/eventBytes/EventData";
 import Contact from "@/components/Contact";
+/**
+ * Innovation Oasis Event Page
+ * 
+ * Displays details for the Innovation Oasis event.
+ */
 const page = () => {
   const title = "Innovation Oasis";
   const organizer = "UDYAM";

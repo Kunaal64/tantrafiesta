@@ -6,6 +6,11 @@ import { motion, useInView } from "framer-motion";
 
 import EventData from "@/components/eventBytes/EventData";
 import Contact from "@/components/Contact";
+/**
+ * OpenAI Event Page
+ * 
+ * Displays details for the OpenAI event.
+ */
 const page = () => {
   const title = "OpenAI";
   const organizer = " Probe";

@@ -6,6 +6,11 @@ import { motion, useInView } from "framer-motion";
 
 import EventData from "@/components/eventBytes/EventData";
 import Contact from "@/components/Contact";
+/**
+ * Shatranj-Up Event Page
+ * 
+ * Displays details for the Shatranj-Up (Chess) event.
+ */
 const page = () => {
   const title = " Satranj-Up";
   const organizer = "TF Management";

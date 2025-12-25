@@ -1,5 +1,14 @@
 import SpeakerCard from "./bytes/SpeakerCard";
 
+/**
+ * SpeakersGrid Component
+ * 
+ * A responsive grid layout for displaying Speaker cards.
+ * 
+ * Features:
+ * - Manually defines a set of `SpeakerCard` components for key speakers.
+ * - Adapts columns based on screen size (lg: 2 cols, 2xl: 3 cols).
+ */
 const SpeakersGrid = () => {
   return (
     <div className="grid gap-1 place-content-center lg:grid-cols-2 2xl:grid-cols-3 mt-16">

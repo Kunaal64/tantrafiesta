@@ -6,6 +6,11 @@ import { motion, useInView } from "framer-motion";
 
 import EventData from "@/components/eventBytes/EventData";
 import Contact from "@/components/Contact";
+/**
+ * RoboRumble Event Page
+ * 
+ * Displays details for the RoboRumble event.
+ */
 const page = () => {
   const title = "Robo Rumble";
   const organizer = "IoTics";

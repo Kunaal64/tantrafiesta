@@ -1,3 +1,8 @@
+/**
+ * MemberSlate Component
+ * 
+ * Displays basic information for a general team member.
+ */
 const MemberSlate = ({ name, title }) => {
   return (
     <div className=" h-12  rounded-2xl px-2 text-white">

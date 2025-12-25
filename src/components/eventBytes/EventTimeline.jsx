@@ -6,6 +6,11 @@ import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import Typography from "@mui/material/Typography";
 
+/**
+ * EventTimeline Component
+ * 
+ * Renders a vertical timeline of event phases using Material UI's Timeline component.
+ */
 const EventTimeline = ({ data }) => {
   return (
     <Timeline

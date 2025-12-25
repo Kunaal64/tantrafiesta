@@ -6,6 +6,12 @@ import { motion, useInView } from "framer-motion";
 
 import EventData from "@/components/eventBytes/EventData";
 import Contact from "@/components/Contact";
+/**
+ * CodeFiesta Event Page
+ * 
+ * Displays details for the CodeFiesta event.
+ * Features an animated banner and event information.
+ */
 const page = () => {
   const title = "Codefiesta";
   const organizer = "DotSlash ";

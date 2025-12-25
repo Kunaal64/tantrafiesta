@@ -4,6 +4,16 @@ import { useState, useEffect, useRef } from "react";
 import OrganiserBadge from "../bytes/OrganiserBadge";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+/**
+ * Header Component (Event Page)
+ * 
+ * The main header card for an individual event page.
+ * 
+ * Features:
+ * - Interactive 3D tilt effect on mouse move.
+ * - Displays Title, Organizer badge, and Details.
+ * - "Register Now" button with hover animation.
+ */
 const Header = ({ title, theme, children, details, organizer, url }) => {
   const [rotation, setRotation] = useState({ x: 0, y: 0 });
   const cardRef = useRef(null);

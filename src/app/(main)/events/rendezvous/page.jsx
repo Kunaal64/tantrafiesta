@@ -6,6 +6,11 @@ import { motion, useInView } from "framer-motion";
 
 import EventData from "@/components/eventBytes/EventData";
 import Contact from "@/components/Contact";
+/**
+ * Rendezvous Event Page
+ * 
+ * Displays details for the Rendezvous event.
+ */
 const page = () => {
   const title = "Rendezvous";
   const organizer = "Orator";

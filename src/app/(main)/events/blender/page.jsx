@@ -6,6 +6,11 @@ import { motion, useInView } from "framer-motion";
 
 import EventData from "@/components/eventBytes/EventData";
 import Contact from "@/components/Contact";
+/**
+ * Blender Blitz Event Page
+ * 
+ * Displays details for the Blender Blitz (3D Modeling) event.
+ */
 const page = () => {
   const title = "Blender  Blitz";
   const organizer = "Dimension";

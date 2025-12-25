@@ -11,6 +11,17 @@ import { motion } from "framer-motion";
 import { Suspense } from "react";
 import Loading from "../Loading";
 import { Link } from "react-router-dom";
+/**
+ * Overdrive Component
+ * 
+ * An interactive event card for the "Overdrive" Valorant tournament.
+ * 
+ * Features:
+ * - 3D Tilt effect.
+ * - Interactive 3D model viewer for Valorant weapons (Knife, Classic, Vandal).
+ * - "Loadout" selector to switch between 3D models.
+ * - Drill-down menu for event rounds (Round 1, Round 2).
+ */
 const Overdrive = () => {
   const [rotation, setRotation] = useState({ x: 0, y: 0 });
   const [selection, setSelection] = useState(0);

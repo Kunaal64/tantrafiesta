@@ -1,3 +1,12 @@
+/**
+ * TitleCard Component
+ * 
+ * A header card for a specific team section (e.g., "Web Dev", "Marketing").
+ * 
+ * Features:
+ * - Dynamic theme color application via CSS variables.
+ * - Displays a title and acts as a container for member slates.
+ */
 const TitleCard = ({ title, theme, children, height }) => {
   return (
     <div

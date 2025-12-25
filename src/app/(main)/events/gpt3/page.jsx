@@ -6,6 +6,11 @@ import { motion, useInView } from "framer-motion";
 
 import EventData from "@/components/eventBytes/EventData";
 import Contact from "@/components/Contact";
+/**
+ * GPT-3.5 Solve-A-Thon Event Page
+ * 
+ * Displays details for the GPT-3.5 Solve-A-Thon event.
+ */
 const page = () => {
   const title = "GPT 3.5 Solve-A-Thon";
   const organizer = "CRISPR";

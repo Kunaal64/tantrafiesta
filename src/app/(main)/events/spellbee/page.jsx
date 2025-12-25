@@ -6,6 +6,11 @@ import { motion, useInView } from "framer-motion";
 
 import EventData from "@/components/eventBytes/EventData";
 import Contact from "@/components/Contact";
+/**
+ * SpellBee Event Page
+ * 
+ * Displays details for the SpellBee event.
+ */
 const page = () => {
   const title = "Spell Bee ";
   const organizer = "TF Management";

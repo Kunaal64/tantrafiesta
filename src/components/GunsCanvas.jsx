@@ -2,6 +2,15 @@ import { Canvas } from "@react-three/fiber";
 
 import { OrbitControls } from "@react-three/drei";
 
+/**
+ * GunsCanvas Component
+ * 
+ * A specialized 3D Canvas for rendering specific 3D items (passed as props).
+ * 
+ * Features:
+ * - Configured with specific lighting and orbital controls.
+ * - Accepts an `item` prop to render dynamic 3D content within the scene.
+ */
 const GunsCanvas = ({ item }) => {
   return (
     <Canvas>

@@ -5,6 +5,16 @@ import OrganiserBadge from "./OrganiserBadge";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
+/**
+ * CodeFiesta Component
+ * 
+ * An event card for "CodeFiesta".
+ * 
+ * Features:
+ * - 3D Tilt effect.
+ * - Floating/Bouncing animation for the event banner.
+ * - "Learn More" button linking to details page.
+ */
 const CodeFiesta = ({ theme }) => {
   const [rotation, setRotation] = useState({ x: 0, y: 0 });
   const cardRef = useRef(null);

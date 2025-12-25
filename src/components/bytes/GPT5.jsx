@@ -6,6 +6,16 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import GPTGimmick from "../gimmicks/GPTGimmick";
 
+/**
+ * GPT5 Component
+ * 
+ * An interactive event card for "GPT 3.5 Solve-A-Thon".
+ * 
+ * Features:
+ * - 3D Tilt effect.
+ * - Specific branding and "CRISPER" organizer badge.
+ * - Floating image animation.
+ */
 const GPT5 = ({ theme }) => {
   const [rotation, setRotation] = useState({ x: 0, y: 0 });
   const cardRef = useRef(null);

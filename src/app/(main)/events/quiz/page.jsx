@@ -6,6 +6,11 @@ import { motion, useInView } from "framer-motion";
 
 import EventData from "@/components/eventBytes/EventData";
 import Contact from "@/components/Contact";
+/**
+ * Quiz Event Page
+ * 
+ * Displays details for the Quiz event.
+ */
 const page = () => {
   const title = "Quiz Showdown";
   const organizer = "TF Management";

@@ -6,6 +6,12 @@ import { motion, useInView } from "framer-motion";
 
 import EventData from "@/components/eventBytes/EventData";
 import Contact from "@/components/Contact";
+/**
+ * Algorithmia Event Page
+ * 
+ * Displays details for the Algorithmia event, including description,
+ * timeline, rewards, and a registration link.
+ */
 const page = () => {
   const title = "Algorithmia";
   const organizer = "DotSlash";

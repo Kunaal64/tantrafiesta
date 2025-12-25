@@ -4,6 +4,16 @@ import { HiArrowRight } from "react-icons/hi";
 import { useRef } from "react";
 import { useInView } from "framer-motion";
 import { Link } from "react-router-dom";
+/**
+ * FindMore Component
+ * 
+ * A visually rich call-to-action section directing users to the Events page.
+ * 
+ * Features:
+ * - Massive SVG background with complex paths and gradient animations.
+ * - Animated "Find More" text with an arrow icon.
+ * - Responsive layout.
+ */
 const FindMore = () => {
   const divRef = useRef(null);
   const isInView = useInView(divRef);

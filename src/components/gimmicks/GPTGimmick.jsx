@@ -1,5 +1,10 @@
 
 
+/**
+ * GPTGimmick Component
+ * 
+ * Displays a centered image as a visual gimmick for the GPT-3.5 event card.
+ */
 const GPTGimmick = ({ image }) => {
   return (
     <div className=" bg-transparent h-full w-full flex flex-col justify-center">

@@ -6,6 +6,11 @@ import { motion, useInView } from "framer-motion";
 
 import EventData from "@/components/eventBytes/EventData";
 import Contact from "@/components/Contact";
+/**
+ * Treasure Hunt Event Page
+ * 
+ * Displays details for the Treasure Hunt event.
+ */
 const page = () => {
   const title = "Treasure Hunt";
   const organizer = "TF Management";

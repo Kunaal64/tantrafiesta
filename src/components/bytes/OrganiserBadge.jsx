@@ -1,3 +1,12 @@
+/**
+ * OrganiserBadge Component
+ * 
+ * A simple pill-shaped badge to display the organizer's name.
+ * 
+ * Props:
+ * - text: The organizer's name.
+ * - theme: The color theme for the badge border and text.
+ */
 const OrganiserBadge = ({ text, theme }) => {
   return (
     <p
