@@ -9,6 +9,16 @@ import Algorithma from "./Algorithma";
 import EventCardTall from "./EventCardTall";
 import { useInView } from "framer-motion";
 import RoboRumble from "./RoboRumble";
+/**
+ * EventsGrid Component
+ * 
+ * Displays a curated list of events for the Home page.
+ * 
+ * Features:
+ * - Interactive mouse-move effect that updates CSS variables (--x, --y) on cards.
+ * - Scroll-based animation for the side decorative line using `framer-motion`.
+ * - Responsive grid layout for event cards.
+ */
 const EventsGrid = () => {
   const cardsRef = useRef(null);
   const divRef = useRef(null);

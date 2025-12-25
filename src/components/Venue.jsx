@@ -6,6 +6,16 @@ import { motion } from "framer-motion";
 import { MdOutlineEmojiEvents } from "react-icons/md";
 import Canva from "./Canva";
 
+/**
+ * Venue Component
+ * 
+ * Displays the location of the event.
+ * 
+ * Features:
+ * - Embeds a Google Map iframe showing IIIT Nagpur.
+ * - Displays the full text address.
+ * - styled with a dark theme filter for the map to match the site aesthetic.
+ */
 const Venue = () => {
   //   const scene = new THREE.Scene();
 

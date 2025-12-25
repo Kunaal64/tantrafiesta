@@ -5,6 +5,16 @@ import { motion } from "framer-motion";
 import { MdOutlineEmojiEvents } from "react-icons/md";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
+/**
+ * Events Component
+ * 
+ * Highlights the main theme or specific high-level events of the fest.
+ * 
+ * Features:
+ * - Simple layout with a highlighted "Highlights" tag.
+ * - Uses `framer-motion` for scroll-based revealed animations.
+ * - Displays descriptive text about the event theme ("Genesis Unleashed").
+ */
 const Events = () => {
   const divRef = useRef(null);
   const isInView = useInView(divRef);

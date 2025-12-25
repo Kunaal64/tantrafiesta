@@ -8,6 +8,17 @@ import {
 } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 //  // Removed
+/**
+ * Footer Component
+ * 
+ * Renders the application footer.
+ * Includes:
+ * - Organization logo (IIITN).
+ * - Social media links (Instagram, Twitter, YouTube, Facebook, LinkedIn).
+ * - Developer credits.
+ * 
+ * Uses standard <a> tags for external links and react-router <Link> for internal navigation.
+ */
 const Footer = () => {
   return (
     <>

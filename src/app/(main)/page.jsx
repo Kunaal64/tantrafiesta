@@ -11,6 +11,19 @@ import EventCardShort from "@/components/bytes/EventCardShort";
 import Venue from "@/components/Venue";
 import Contact from "@/components/Contact";
 
+/**
+ * Home Page
+ * 
+ * The main entry point for the application content.
+ * Integrates various sections:
+ * - Hero: Initial visual impact.
+ * - About: Information about the fest.
+ * - Events: Highlights key events.
+ * - EventsGrid: Displays a grid of event cards.
+ * - Speakers: Showcases guests and workshops.
+ * - Venue: Map and address.
+ * - Contact: Contact form.
+ */
 export default function Home() {
   return (
     <main className=" -z-50 flex min-h-screen flex-col items-center justify-between bg-black text-white">

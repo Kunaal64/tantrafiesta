@@ -1,8 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import './app/(main)/globals.css' // Import global styles
+// Import global styles to be applied across the entire application
+import './app/(main)/globals.css' 
 
+/**
+ * Entry Point
+ * 
+ * Renders the root React component (App) into the DOM element with id 'root'.
+ * Wrapped in React.StrictMode for additional checks during development.
+ */
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />

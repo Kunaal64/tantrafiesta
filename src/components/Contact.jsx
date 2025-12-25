@@ -6,6 +6,17 @@ import { motion } from "framer-motion";
 
 import { Link } from "react-router-dom";
 
+/**
+ * Contact Component
+ * 
+ * Interactive contact form that simulates a terminal/chat interface.
+ * 
+ * Features:
+ * - Typewriter effect for prompts.
+ * - State management for form steps (Name -> Email -> Message).
+ * - Fetches to /api/contact to send emails.
+ * - Animations using Framer Motion.
+ */
 const Contact = () => {
   const [open, setOpen] = useState(false);
   const [name, setName] = useState(false);
@@ -18,6 +29,14 @@ const Contact = () => {
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
+  /**
+   * handleSubmit
+   * 
+   * Handles the form submission.
+   * Sends a POST request to the backend API with the collected data.
+   * 
+   * @param {Event} e - Form submission event
+   */
   const handleSubmit = (e) => {
     e.preventDefault();
     setSubmitting(true);

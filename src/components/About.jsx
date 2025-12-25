@@ -7,6 +7,17 @@ import { motion } from "framer-motion";
 
 import { useInView } from "framer-motion";
 import { Link } from "react-router-dom";
+/**
+ * About Component
+ * 
+ * Displays information about TantraFiesta.
+ * 
+ * Features:
+ * - Scroll-triggered animations using `framer-motion`'s `useInView`.
+ * - Responsive layout adjustments based on window width.
+ * - Animated progress bar/line that fills as the user scrolls.
+ * - Displays sponsors and a link to the Team page.
+ */
 const About = () => {
   const divRef = useRef(null);
   const isInView = useInView(divRef);

@@ -4,6 +4,16 @@ import { motion, useMotionValue, useSpring } from "framer-motion";
 import { useState, useEffect, useRef } from "react";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 
+/**
+ * Hero Component
+ * 
+ * The main landing section of the website.
+ * Features:
+ * - Complex SVG background with Framer Motion animations.
+ * - Dynamic interactivity based on mouse events (hover effects).
+ * - Responsive design adjustments for varying screen sizes.
+ * - Animated text and graphical elements (Circles, Reactor, SBI logo).
+ */
 const Hero = () => {
   var [strokeWidth, setStrokeWidth] = useState([7, 15]);
   var [duration, setDuration] = useState([3, 1]);

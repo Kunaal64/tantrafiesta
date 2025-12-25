@@ -13,6 +13,16 @@ import GPT5 from "./GPT5";
 import CodeFiesta from "./CodeFiesta";
 import RoboRumble from "./RoboRumble";
 import Innov from "./Innov";
+/**
+ * EventsGridExtended Component
+ * 
+ * A comprehensive grid displaying ALL events for the Events page.
+ * 
+ * Features:
+ * - Similar interactive mouse-move effect as `EventsGrid`.
+ * - Extended list including specific event components (Algorithma, GenAThon, etc.) and generic cards.
+ * - Complex grid layout (manually defined rows/cols) to fit various card sizes.
+ */
 const EventsGridExtended = () => {
   const cardsRef = useRef(null);
   const divRef = useRef(null);

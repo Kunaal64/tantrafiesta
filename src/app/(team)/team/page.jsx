@@ -7,6 +7,18 @@ import MemberSlate from "@/components/teamBytes/MemberSlate";
 import TitleCard from "@/components/teamBytes/TitleCard";
 import { motion } from "framer-motion";
 
+/**
+ * Team Page
+ * 
+ * Displays the organizing team structure.
+ * 
+ * Features:
+ * - Complex layout with horizontal scrolling sections using `CardSection`.
+ * - Categorized teams (Management, Hospitality, Event Management, etc.).
+ * - `TitleCard` components to group members by department.
+ * - `LeadSlate` and `CoLeadSlate` components for individual member details.
+ * - Entrance animation with Framer Motion.
+ */
 const page = () => {
   return (
     <motion.div

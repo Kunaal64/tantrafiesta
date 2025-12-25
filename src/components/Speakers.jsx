@@ -8,6 +8,16 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { FaRegStar } from "react-icons/fa";
 import Workshop from "./bytes/Workshop";
+/**
+ * Speakers Component
+ * 
+ * Section displaying special guests and workshops.
+ * 
+ * Features:
+ * - Renders a grid of speakers using `SpeakersGrid`.
+ * - Displays workshop details using `Workshop` component.
+ * - Uses `framer-motion` for decorative line animations on scroll.
+ */
 const Speakers = () => {
   const divRef = useRef(null);
   const isInView = useInView(divRef);

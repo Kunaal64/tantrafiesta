@@ -1,6 +1,18 @@
 import { Link } from "react-router-dom";
 import { TbSquareRotatedFilled } from "react-icons/tb";
 
+/**
+ * Navbar Component
+ * 
+ * Renders the top navigation bar.
+ * Contains links to various sections (About, Events, Workshops, Speakers, Team, Contact).
+ * Uses React Icons for decorative elements.
+ * 
+ * Structure:
+ * - Fluid width, fixed position at top.
+ * - Backdrop blur effect.
+ * - Flexbox layout for responsiveness (hidden on mobile, visible on lg screens).
+ */
 const Navbar = () => {
   return (
     <nav className=" w-screen absolute z-50 backdrop-blur-sm">

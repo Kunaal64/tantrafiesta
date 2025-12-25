@@ -6,14 +6,24 @@ require('dotenv').config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+// Enable CORS to allow requests from the frontend (running on a different port in dev)
 app.use(cors());
+// Parse incoming JSON request bodies
 app.use(express.json());
 
+/**
+ * POST /api/contact
+ * 
+ * Endpoint to handle contact form submissions.
+ * Receives name, email, and message from the request body.
+ * Uses Nodemailer to send an email to the organizers.
+ */
 app.post('/api/contact', async (req, res) => {
     const { name, email, message } = req.body;
     const PASSWORD = process.env.password; // Note: In .env make sure it's 'password' or match implementation
 
-    // Transporter configuration from existing Next.js code
+    // Transporter configuration for Gmail SMTP
+    // Note: Requires a valid 'password' in .env file (App Password for Gmail)
     const transporter = nodemailer.createTransport({
         port: 465,
         host: "smtp.gmail.com",
@@ -46,7 +56,7 @@ app.post('/api/contact', async (req, res) => {
             html: `<div>${message}</div><p>Sent from: ${email}</p>`,
         };
 
-        // Send mail
+        // Send the email using the configured transporter
         const info = await new Promise((resolve, reject) => {
             transporter.sendMail(mailData, (err, info) => {
                 if (err) {
@@ -59,8 +69,10 @@ app.post('/api/contact', async (req, res) => {
             });
         });
 
+        // Respond with success status and info
         res.status(200).json({ status: 'success', info });
     } catch (error) {
+        // Handle errors (connection, authentication, sending failure)
         console.error('Email sending failed:', error);
         res.status(500).json({ status: 'error', error: error.message });
     }
